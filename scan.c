@@ -3,8 +3,9 @@
 
 int main(int argc, char **argv)
 {
+	int count = 0;
 	while (--argc)
-		printf("%s\n",*++argv);
+		printf("Line: %d .... %s\n",++count,*++argv);
 
 	return 0;
 }
