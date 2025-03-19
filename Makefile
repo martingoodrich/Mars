@@ -4,4 +4,4 @@ clean:
 	rm -rf main.exe *.swp 
 
 main: main.c
-	gcc -d -o main main.c
+	gcc -g -o main main.c
