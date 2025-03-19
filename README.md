@@ -1,5 +1,2 @@
-# Mars
-A new line of code
-Yet another line of code
-One more before we're done
+A small project consiting of a simple C language file and a Makefile
 
