@@ -3,8 +3,10 @@
 
 int main(int argc, char **argv)
 {
+    int arg_num = 0;
+
     while(--argc)
-        printf("%s\n", *++argv);
+        printf("arg# %d - %s\n", ++arg_num,  *++argv);
     
     printf("About to return 0\n");
 
