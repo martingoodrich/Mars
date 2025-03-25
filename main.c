@@ -9,7 +9,13 @@ int main(int argc, char **argv)
     while(--argc)
         printf("arg# %d - %s\n", ++arg_num,  *++argv);
     
-    printf("About to return 0\n");
+    print_message("About to return 0\n");
 
     return 0;
+}
+
+
+void print_message(char *message)
+{
+    printf("%s", message);
 }
