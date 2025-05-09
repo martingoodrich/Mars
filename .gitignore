@@ -1,4 +1,5 @@
 *.exe
+*.o
 *.swp
 token.txt
 nohup.out

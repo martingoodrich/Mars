@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include "main.h"
+#include "message.h"
 
 int main(int argc, char **argv)
 {
@@ -14,10 +15,4 @@ int main(int argc, char **argv)
     print_message("About to return 0\n");
 
     return 0;
-}
-
-
-void print_message(char *message)
-{
-    printf("%s", message);
 }
